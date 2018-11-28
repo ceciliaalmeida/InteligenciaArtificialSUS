@@ -1,0 +1,1 @@
+@relation sus.symbolic@attribute sintomas {dor, febre, pressao}@attribute doenca {gripe, cancer}@attribute morte {sim, nao}@data dor,cancer,simfebre,gripe,naopressao,cancer,sim

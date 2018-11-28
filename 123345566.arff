@@ -1,0 +1,13 @@
+@relation bancosus
+
+@attribute Sexo {F,M}
+@attribute DescriçãodoCBO {MEDICOCLINICO,MEDICOPEDIATRA,MEDICODAESTRATEGIADESAUDEDAFAMILIA}
+@attribute DescriçãodoCID {INFECCAOAGUDADASVIASAEREASSUPERIORES, INFECCAODOTRATOURINARIODELOCALIZACAO}
+@attribute classe {sim,nao}
+
+@data
+F MEDICOCLINICO INFECCAOAGUDADASVIASAEREASSUPERIORES sim
+F MEDICOCLINICO INFECCAODOTRATOURINARIODELOCALIZACAO nao
+F MEDICOCLINICO INFECCAOAGUDADASVIASAEREASSUPERIORES sim
+
+Doençacausadaporparasitas,Tuberculose,Insuficiênciacardíacacongestiva,Insuficiênciarespiratória,Insuficiênciarenalaguda,Insuficiênciarenalcrônica,Insuficiênciahepáticaaguda,Insuficiênciahepáticacrônica,Artritereumatoide,Sarcoidose,lúpus,Disfunçãodeglândulassuprarrenais,Diabetes,Disfunçãodaglândulapituitária,Problemasnatireoide,Leucemia,Linfoma,Câncerdecólon,Depressão,Distimia

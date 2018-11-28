@@ -1,0 +1,11 @@
+@relation datasus_predicted
+
+@attribute Sexo {f,m}
+@attribute sintomas {gripe,Doençacausadaporparasitas,tuberculose,insuficienciacardiaca,Insuficiênciarespiratória,Insuficiênciarenalaguda,Insuficiênciarenalcrônica,Insuficiênciahepáticaaguda,Insuficiênciahepáticacrônica,Artritereumatoide,Sarcoidose,lúpus,Disfunçãodeglândulassuprarrenais,Diabetes,Disfunçãodaglândulapituitária,Problemasnatireoide,leucemia,Linfoma,Câncerdecólon,depressao,distimia}
+@attribute cirurgia {sim,nao}
+@attribute 'prediction margin' numeric
+@attribute 'predicted doencas' {cancer,infecciosa,desinfecciosa,cronica,organica}
+@attribute doencas {cancer,infecciosa,desinfecciosa,cronica,organica}
+
+@data
+m,Problemasnatireoide,sim,-0.937376,organica,?

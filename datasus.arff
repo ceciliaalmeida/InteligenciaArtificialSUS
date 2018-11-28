@@ -1,0 +1,61 @@
+@relation datasus
+
+@attribute Sexo {f,m}
+@attribute sintomas {gripe,Doençacausadaporparasitas,tuberculose,insuficienciacardiaca,Insuficiênciarespiratória,Insuficiênciarenalaguda,Insuficiênciarenalcrônica,Insuficiênciahepáticaaguda,Insuficiênciahepáticacrônica,Artritereumatoide,Sarcoidose,lúpus,Disfunçãodeglândulassuprarrenais,Diabetes,Disfunçãodaglândulapituitária,Problemasnatireoide,leucemia,Linfoma,Câncerdecólon,depressao,distimia,alergias,anemia,respiratorias,artrite,asma,bulimia,problemasdigestivo,garanta,fígado,gastrite,ulcera,rins,problemaspes,varizes,acromegalia,afonia,aftas,alopecia,alzheimer,amebiase,amigdalite,angioma,anorexia,apendicite,apneia,epilepsia}
+@attribute cirurgia {sim,nao}
+@attribute doencas {cancer,infecciosa,cronica,organica,psicossomaticas,inflamatoria}
+
+@data
+f gripe nao organica
+f insuficienciacardiaca sim cronica
+m tuberculose nao infecciosa
+f leucemia sim cancer
+m depressao nao cronica
+m distimia nao cronica
+f Doençacausadaporparasitas sim infecciosa
+f Insuficiênciarespiratória sim cronica
+m Insuficiênciarenalaguda sim infecciosa
+m Insuficiênciarenalcrônica sim infecciosa
+f Insuficiênciahepáticaaguda nao organica
+m Insuficiênciahepáticacrônica nao organica
+f Artritereumatoide sim cronica
+f Sarcoidose nao cronica
+m lúpus sim infecciosa
+m Disfunçãodeglândulassuprarrenais sim cronica
+f Diabetes nao cronica
+f Disfunçãodaglândulapituitária nao cronica
+m Problemasnatireoide sim organica
+m leucemia sim cancer
+m Linfoma sim cancer
+f Câncerdecólon sim cancer
+f depressao nao cronica
+m distimia nao cronica
+m gripe nao organica
+f alergias nao psicossomaticas
+m anemia nao psicossomaticas
+m respiratorias sim psicossomaticas
+f artrite sim psicossomaticas
+m asma nao psicossomaticas
+f bulimia sim psicossomaticas
+f problemasdigestivo sim psicossomaticas
+m garanta sim psicossomaticas
+f fígado sim psicossomaticas
+m gastrite nao psicossomaticas
+f  ulcera nao psicossomaticas
+f rins sim psicossomaticas
+m problemaspes sim psicossomaticas
+f varizes sim psicossomaticas
+m acromegalia sim inflamatoria
+m afonia nao inflamatoria
+m aftas nao inflamatoria
+f aftas nao inflamatoria
+f alopecia nao inflamatoria
+f alzheimer nao cronica
+m alzheimer nao cronica
+f amebiase sim inflamatoria
+m amigdalite sim inflamatoria
+f angioma nao inflamatoria
+f anorexia nao inflamatoria
+m apendicite sim inflamatoria
+f apneia nao inflamatoria
+m epilepsia nao inflamatoria
